@@ -46,11 +46,11 @@ $(document).ready(function () {
 
     // Typed JS TRIGGER
   	$(".header .middle-l h3 span").typed({
-  		strings: ["Web Developer"],
-  		loop: true,
-  		startDelay: 1e3,
-  		backDelay: 3e3
-  	});
+      strings: ["Software Engineer"],
+      loop: true,
+      startDelay: 1e3,
+      backDelay: 3e3,
+    });
     
     //// COUNT TO TRIGGER
     var eventFired = false,
